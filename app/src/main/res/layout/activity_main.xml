@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/grey">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:foregroundGravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/earth"
+        android:elevation="16dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:text="Know about earthquakes" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:text="recent earthquakes" />
+
+</RelativeLayout>
